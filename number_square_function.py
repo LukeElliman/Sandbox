@@ -10,7 +10,7 @@ def main():
 
 def square_number(value):
     """Squares a number"""
-    return  value ** 2
+    return value ** 2
 
 
 main()
