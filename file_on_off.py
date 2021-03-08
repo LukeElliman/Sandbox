@@ -1,3 +1,6 @@
+"""
+Changes the text from on to off and off to on in a text file
+"""
 try:
     in_file = open("on_off.txt", 'r')
     line = in_file.readline()

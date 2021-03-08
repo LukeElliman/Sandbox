@@ -1,3 +1,6 @@
+"""
+Ask user for a number then squares and prints it
+"""
 import math
 
 
