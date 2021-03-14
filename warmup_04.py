@@ -11,3 +11,7 @@ capitals = [c for c in name if c.isupper()]
 vowels = [c for c in name if c.lower() in "aeiou"]
 print(vowels)
 print(capitals)
+
+new_name = "".join([c for c in name if c.lower() not in "aeiou"])
+print(new_name)
+
