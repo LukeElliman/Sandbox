@@ -1,10 +1,10 @@
 def main():
     """Run the program"""
-    age = valid_age_input()
+    age = is_valid_age()
     print("Your age is {}".format(age))
 
 
-def valid_age_input():
+def is_valid_age():
     """Get user input, validates it is above 0 and an integer"""
     valid_input = False
     while not valid_input:
