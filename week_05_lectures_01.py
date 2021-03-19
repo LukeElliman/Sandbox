@@ -5,5 +5,8 @@ age = int(input("Age: "))
 
 ages_dict[name] = age
 
+for name in ages_dict:
+    print("{}   -  {}".format(name, ages_dict[name]))
 
-print(ages_dict)
+for name, age in ages_dict.items():
+    print("{}   -  {}".format(name, age))
