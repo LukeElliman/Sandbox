@@ -55,8 +55,8 @@ def get_valid_integer(prompt):
     while not valid_input:
         try:
             number = int(input(prompt))
-            if number < 1:
-                print("Input must be 1 or above")
+            if number < 0:
+                print("Input must be 0 or above")
             elif number == "":
                 print("Input can no be blank")
             else:
